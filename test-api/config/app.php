@@ -1,6 +1,5 @@
 <?php
 
-dd(env('APP_KEY'));
 return [
 
     /*
