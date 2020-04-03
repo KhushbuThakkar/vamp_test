@@ -2,7 +2,17 @@
 
 ## Heroku setup
 
+push on heroku
 git subtree push --prefix test-api heroku master
+
+run bash
+heroku run bash -a vamp-test
+
+heroku config:set APP_KEY=\$(php artisan --no-ansi key:generate --show)
+
+# live creds for db -- TODO: remove this
+
+lelecit772@wwrmails.com khushbu_1 rQf8wf63jB@VjL9
 
 ## Contributing
 
