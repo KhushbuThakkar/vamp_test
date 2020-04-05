@@ -60,6 +60,16 @@
             text-transform: uppercase;
         }
 
+        .apis.links>a {
+            color: blue;
+            font-size: 15px;
+
+        }
+
+        .apis {
+            margin-top: 10px
+        }
+
         .m-b-md {
             margin-bottom: 30px;
         }
@@ -92,7 +102,7 @@
                 <a href="https://vamp-react.herokuapp.com/">Heroku React APP</a>
             </div>
 
-            <div class="links">
+            <div class="apis links">
                 <a href="https://vamp-test.herokuapp.com/api/teams/">get teams</a>
                 <a href="https://vamp-test.herokuapp.com/api/campaigns/">get Campaigns</a>
                 <a href="https://vamp-test.herokuapp.com/api/campaigns/Agency">get Campaigns by Team</a>
