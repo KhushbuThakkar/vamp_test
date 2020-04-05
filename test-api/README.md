@@ -11,6 +11,12 @@ as I have used free mySql database(db4free) to host it, the app is a bit slow as
 Laravel
 MySql
 
+## technical details of project
+
+-   Structurised application in a way to ensure the project can scale.
+-   Used Eloquent to build queries and relationships
+-   Used migrations to make sure whenever app is build it has all required table and data.
+
 ## Prerequisites
 
 -   PHP
@@ -34,12 +40,6 @@ After setup
 ```
 php artisan serve
 ```
-
-## technical
-
--   Structurised application in a way to ensure the project can scale.
--   Used Eloquent to build queries and relationships
--   Used migrations to make sure whenever app is build it has all required table and data.
 
 ### Deployment
 
