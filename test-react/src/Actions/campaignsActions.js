@@ -11,10 +11,11 @@ export const setCampaignsLoading = () => {
   };
 };
 
-export const getSpaces = () => dispatch => {
+export const getCampaigns = searchText => dispatch => {
   dispatch(setCampaignsLoading());
+
   axios
-    .get("/api/campaigns")
+    .get(`/api/campaigns/${searchText ? searchText : ""}`)
     .then(res => {
       dispatch({
         type: GET_CAMPAIGNS_SUCCESS,
