@@ -1,9 +1,10 @@
-import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+import React from "react";
+import * as TestRenderer from "react-test-renderer";
+import App from "./App";
+import Header from "./Components/Header/Header";
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+it("App Component", () => {
+  const renderer = TestRenderer.create(<App />);
+  const instance = renderer.root;
+  console.assert(instance.findByType(Header));
 });
