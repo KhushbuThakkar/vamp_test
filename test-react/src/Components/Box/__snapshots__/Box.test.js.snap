@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly Box component 1`] = `
+<div
+  className="css-1axab2n"
+>
+  <div>
+    hello
+  </div>
+</div>
+`;
