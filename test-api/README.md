@@ -3,7 +3,7 @@
 ## Heroku setup
 
 push on heroku
-heroku git:remote -a vamp-api
+heroku git:remote -a vamp-test
 git subtree push --prefix test-api heroku master
 
 run bash
