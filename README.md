@@ -5,9 +5,11 @@ Go to respective directory to get more information on each code base.
 
 ## Live APP
 
+as I have used free mySql database(db4free) to host it, the app is a bit slow as getting data from database takes time.
+
 - [ReactJS APP](https://khushbuthakkar.github.io/vamp_test/)
 
-- [Laravel API](https://vamp-test.herokuapp.com/)
+* [Laravel API](https://vamp-test.herokuapp.com/)
 
 ## stack used
 
