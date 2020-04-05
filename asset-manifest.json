@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/KhushbuThakkar/vamp_test/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/KhushbuThakkar/vamp_test/static/js/main.f254cdf4.chunk.js",
+    "main.js.map": "/KhushbuThakkar/vamp_test/static/js/main.f254cdf4.chunk.js.map",
+    "runtime-main.js": "/KhushbuThakkar/vamp_test/static/js/runtime-main.05e96018.js",
+    "runtime-main.js.map": "/KhushbuThakkar/vamp_test/static/js/runtime-main.05e96018.js.map",
+    "static/js/2.fb767a66.chunk.js": "/KhushbuThakkar/vamp_test/static/js/2.fb767a66.chunk.js",
+    "static/js/2.fb767a66.chunk.js.map": "/KhushbuThakkar/vamp_test/static/js/2.fb767a66.chunk.js.map",
+    "index.html": "/KhushbuThakkar/vamp_test/index.html",
+    "precache-manifest.870d4c983452f45c55ce540a2e447cfe.js": "/KhushbuThakkar/vamp_test/precache-manifest.870d4c983452f45c55ce540a2e447cfe.js",
+    "service-worker.js": "/KhushbuThakkar/vamp_test/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/KhushbuThakkar/vamp_test/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.fb767a66.chunk.js.LICENSE.txt": "/KhushbuThakkar/vamp_test/static/js/2.fb767a66.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05e96018.js",
+    "static/js/2.fb767a66.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.f254cdf4.chunk.js"
+  ]
+}
