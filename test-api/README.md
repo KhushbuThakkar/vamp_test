@@ -17,6 +17,12 @@ MySql
 -   Used Eloquent to build queries and relationships
 -   Used migrations to make sure whenever app is build it has all required table and data.
 
+## end points
+
+-   [get teams](https://vamp-test.herokuapp.com/api/teams/)
+-   [get Campaigns](https://vamp-test.herokuapp.com/api/campaigns/)
+-   [get Campaigns by Team](https://vamp-test.herokuapp.com/api/campaigns/Agency)
+
 ## Prerequisites
 
 -   PHP
