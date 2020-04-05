@@ -98,14 +98,14 @@
             </div>
 
             <div class="links">
-                <a href="https://khushbuthakkar.github.io/vamp_test/">Git React APP</a>
-                <a href="https://vamp-react.herokuapp.com/">Heroku React APP</a>
+                <a href="https://khushbuthakkar.github.io/vamp_test/" target="blank">Git React APP</a>
+                <a href="https://vamp-react.herokuapp.com/" target="blank">Heroku React APP</a>
             </div>
 
             <div class="apis links">
-                <a href="https://vamp-test.herokuapp.com/api/teams/">get teams</a>
-                <a href="https://vamp-test.herokuapp.com/api/campaigns/">get Campaigns</a>
-                <a href="https://vamp-test.herokuapp.com/api/campaigns/Agency">get Campaigns by Team</a>
+                <a href="https://vamp-test.herokuapp.com/api/teams/" target="blank">get teams</a>
+                <a href="https://vamp-test.herokuapp.com/api/campaigns/" target="blank">get Campaigns</a>
+                <a href="https://vamp-test.herokuapp.com/api/campaigns/Agency" target="blank">get Campaigns by Team</a>
 
             </div>
         </div>
