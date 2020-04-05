@@ -20,10 +20,9 @@ class CreateTeamsTable extends Migration
             $table->string('color_set');
             $table->timestamps();
         });
-        Schema::table('campaigns', function($table) {
+        Schema::table('campaigns', function ($table) {
             $table->foreign('team_id')->references('id')->on('teams')->onDelete('cascade');
         });
-        
     }
 
     /**

@@ -23,6 +23,9 @@ class CreateCampaignsTable extends Migration
             $table->unsignedBigInteger('team_id');
             $table->text('description');
             $table->timestamps();
+
+            // $table->foreign('team_id')
+            //     ->references('id')->on('teams')->onDelete('cascade');
         });
     }
 

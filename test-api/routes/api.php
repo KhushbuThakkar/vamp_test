@@ -19,3 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('campaigns', 'CampaignsController@index');
+Route::get('campaigns/{team}', 'CampaignsController@getByTeam');
+Route::get('teams', 'TeamController@index');

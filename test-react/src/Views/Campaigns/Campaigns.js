@@ -16,13 +16,15 @@ const Campaigns = (props) => {
   const [campaigns, setcampaigns] = useState([]);
   const [teams, setteams] = useState([]);
   const [selectedTeam, setSelectedTeam] = useState("");
+  const { getCampaigns, getTeams } = props;
+  // const InitialPropA = useRef(campaigns);
 
   const [loading, setloading] = useState(true);
 
   useEffect(() => {
-    props.getCampaigns();
-    props.getTeams();
-  }, []);
+    getCampaigns();
+    getTeams();
+  }, [getCampaigns, getTeams]);
 
   useEffect(() => {
     setcampaigns(props.campaigns.campaigns);
