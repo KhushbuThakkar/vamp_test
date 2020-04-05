@@ -1,6 +1,19 @@
-# vamp_test
+# vamp test
 
-base64:/E9L7fSv7fH32FCnvVYogCE7GR1MNwjUNSwUiZaJxr0=
-PUY9EJPGggrjEnmJec4Lo+dFlLQi7uvV5cD0pDuOxjE=
+Test given by Khushbu Thakkar.
+Go to respective directory to get more information on each code base.
 
-heroku run /app/php/bin/php /app/www/artisan migrate
+## stack used
+
+Back end : Laravel for creating APIs
+
+- [Laravel API](https://vamp-test.herokuapp.com/)
+
+Front end : ReactJS
+
+- [ReactJS APP](https://khushbuthakkar.github.io/vamp_test/)
+
+## Deployment
+
+Heroku for laravel
+Git pages for React App
