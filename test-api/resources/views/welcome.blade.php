@@ -84,12 +84,19 @@
 
         <div class="content">
             <div class="title m-b-md">
-                VAMP Test APIs to get campaigns data
+                VAMP Test - APIs
             </div>
 
             <div class="links">
-                <a href="https://khushbuthakkar.github.io/vamp_test/">Go to React APP</a>
-                <a href="https://vamp-react.herokuapp.com/">Go to Heroku React APP</a>
+                <a href="https://khushbuthakkar.github.io/vamp_test/">Git React APP</a>
+                <a href="https://vamp-react.herokuapp.com/">Heroku React APP</a>
+            </div>
+
+            <div class="links">
+                <a href="https://vamp-test.herokuapp.com/api/teams/">get teams</a>
+                <a href="https://vamp-test.herokuapp.com/api/campaigns/">get Campaigns</a>
+                <a href="https://vamp-test.herokuapp.com/api/campaigns/Agency">get Campaigns by Team</a>
+
             </div>
         </div>
     </div>
