@@ -1,4 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+
+ReactJS + Redux to get campaigns data and show it to user
+
+- [ReactJS APP](https://khushbuthakkar.github.io/vamp_test/)
+
+## technical details of project
+
+- React + Redux to get data from the APIs
+- axios to call apis
+- rebass for styling
+- styled components
+- emotion for theming
+- react-test-renderer and jest for testing purposes
 
 ## Available Scripts
 

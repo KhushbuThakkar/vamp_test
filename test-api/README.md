@@ -1,4 +1,4 @@
-## About Structure
+## About
 
 Rest apis to get information about teams and campaigns
 
