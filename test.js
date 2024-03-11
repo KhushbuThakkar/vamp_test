@@ -1,8 +1,8 @@
-function test() {
+function testWhatever() {
   alert("test");
 }
 
-test();
+testWhatever();
 
 
 
